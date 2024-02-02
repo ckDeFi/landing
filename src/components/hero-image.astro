@@ -1,0 +1,10 @@
+---
+import { Image } from 'astro:assets'
+
+import moonImage from '~/assets/moon.jpg'
+
+const widths = [450, 800, 1200]
+const sizes = '100vw'
+---
+
+<Image class='size-full object-cover' src={moonImage} {widths} {sizes} alt='The ridged surface of the moon' />
