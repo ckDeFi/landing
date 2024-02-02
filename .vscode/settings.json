@@ -1,0 +1,28 @@
+{
+    /** EDITOR **/
+    "editor.codeActionsOnSave": { "source.fixAll": "always" },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.quickSuggestions": { "strings": true }, // improves tailwind suggestions https://stackoverflow.com/a/68350950/2976642
+
+    /** EMMET **/
+    "emmet.includeLanguages": { "astro": "html", "typescriptreact": "jsx" },
+    "emmet.syntaxProfiles": { "jsx": { "attr_quotes": "single", "attr_name": "className" } },
+
+    /** ESLINT **/
+    "eslint.validate": ["astro", "javascript", "javascriptreact", "typescript", "typescriptreact"],
+
+    /** FILES **/
+    "files.associations": { "*.css": "tailwindcss" },
+
+    /** PRETTIER **/
+    "prettier.documentSelectors": ["**/.editorconfig", "**/.gitignore", "**/*.svg", "**/*.toml"],
+
+    /** TAILWIND CSS **/
+    "tailwindCSS.emmetCompletions": true,
+
+    /** TYPESCRIPT **/
+    "typescript.tsdk": "node_modules/typescript/lib"
+}
